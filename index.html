@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap
+    ">
+
+    <!-- font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Alarm clock Project</title>
+</head>
+<body>
+
+
+    
+    <div class="hero">
+        
+        <!-- <div class="cursor"></div> -->
+        <!-- <div class="nav-bar">
+            <div class="tags">
+                <span><a>About</a></span>
+            </div>
+        </div> -->
+        <div class="title">
+            <a id="clock">
+                <div class="inner">
+                    <span id="titlespan">Clock</span>
+                </div>
+            </a>
+            <a id="stopwatch">
+                <div class="inner">
+                    <span id="titlespan">Stopwatch</span>
+                </div>
+            </a>
+        </div>
+        <div class="container">
+            <div class="clock">
+                <span id="hrs">00</span>
+                <span>:</span>
+                <span id="min">00</span>
+                <span>:</span>
+                <span id="sec">00</span>              
+            </div> 
+
+            <!-- <div class="alarm">
+                <input type="number" id="hrsInp" placeholder="00" min="0" max="23">
+                <input type="number" id="minInp" placeholder="00" min="0" max="59">
+                <button>Set Alarm</button>
+            </div>  -->
+              
+            <!-- <div class="more">Scroll down for Project details</div> -->
+        </div>
+        <div class="container2">
+            <div class="alarmHead">
+                <div class="alarm">
+                    <!-- <span id="hrs">00</span>
+                    <span>:</span>
+                    <span id="min">00</span>
+                    <span>:</span>
+                    <span id="sec">00</span>
+                               -->
+                    
+                    <div class="inputs">
+                    <input type="number" id="hrsInp" placeholder="00" min="0" max="23">
+                    
+                    <input type="number" id="minInp" placeholder="00" min="0" max="59">
+                    
+                </div> 
+                <button id="set">Add Alarm</button>
+            </div>
+            
+            <div class="activeAlarms" id="activeAlarms">
+                <!-- <span>inside active alarms</span> -->
+            </div>
+            <div class="clearAll">
+                <button id="clearAllB">Clear All</button>
+                <!-- <span>Clear All</span> -->
+            </div>
+
+        <!-- </div>
+        
+              
+             <div class="more">Scroll down for Project details</div>
+        </div> -->
+    </div>
+
+    
+    <!-- <div class="cursor"></div>
+    <div class="cursor2"></div>
+    <div class="cursor3"></div> -->
+
+</body>
+    <script type="text/javascript" src="script.js"></script>
+</html>
